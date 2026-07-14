@@ -1,5 +1,6 @@
 package fromArray;
-public class java {
+
+public class CreateLinkedListFromArray{
     
     public static class ListNode{
         int val;
@@ -7,7 +8,7 @@ public class java {
 
         ListNode(int val){
             this.val = val;
-            this.next = next;
+            this.next = null;
         }
     }
     
@@ -35,15 +36,15 @@ public class java {
         }
         return head;
     }
-    
-    public static void main(String[] args) {
+ 
+   public static void main(String[] args) {
 
-        java obj = new java();
+    CreateLinkedListFromArray obj = new CreateLinkedListFromArray();
 
-        int[] arr = {10, 20, 30, 40, 50};
+    int[] arr = {10, 20, 30, 40, 50};
 
-        ListNode head = obj.createList(arr);
+    ListNode head = obj.createList(arr);
 
-        obj.printList(head);
-    }
+    obj.printList(head);
+}
 }

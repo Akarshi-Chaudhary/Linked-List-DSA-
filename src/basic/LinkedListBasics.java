@@ -1,6 +1,6 @@
 package basic;
 
-public class java {
+public class LinkedListBasics {
     
     public static class ListNode {
         int val;
